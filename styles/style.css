@@ -1,0 +1,189 @@
+/* font */
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+/* Navigation */
+.nav-section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding-right: 40px;
+    padding-left: 40px;
+    
+}
+.nav-title{
+    margin-left: 40px;
+    font-size: 18px;
+}
+ul{
+    display: flex;
+    gap: 20px;
+    margin-right:40px ;
+    font-size: 14px;
+}
+.nav-menu{
+    list-style: none
+}
+/* section one */
+
+.section-one-title{
+    font-size: 23px;
+    padding-right: 700px;
+}
+.about-section{
+    padding-right: 700px;
+    font-size: 16px;
+    color: rgba(89, 91, 92, 0.714);
+}
+.btn{
+    font-weight: 700;
+    padding: 7px;
+    background-color: rgb(255, 0, 47);
+    color: aliceblue;
+    font-size: 13px;
+    border: 1px solid rgb(255, 0, 47);
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+}
+.section-one{
+    background-image: url("../images/main-camera.png"),url("../images/Circle design.svg");
+    background-repeat: no-repeat;
+    background-position-x: right;
+    padding-bottom: 250px;
+    margin-right: 90px;
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+.section-two{
+    align-items: center;
+}
+.web-sites> ul{
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+hr{
+    margin-left: 80px;
+    margin-right: 90px;
+}
+.hr-one{
+    margin-top: 20px;
+}
+
+/* new section */
+.all-collection{
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 26px;
+    margin-left: 110px;
+    margin-right: 60px;
+
+}
+.collections-title{
+    margin-top: 150px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.collection-title{
+    font-size: 22px;
+}
+.collection-amount{
+    font-size: 18px;
+}
+span{
+    font-size: 14px;
+}
+.filled{
+    color: orange;
+    font-size: 13px;
+}
+.empty{
+    font-size: 13px;
+    color: rgb(194, 194, 194);
+}
+.collections> .collection-banner img{
+    width:300px;
+    height: 210px;
+}
+.about-collection{
+    font-size: 13px;
+}
+.collection-info{
+    font-size: 13px;
+    
+}
+.collections{
+    padding: 20px;
+    box-shadow: 2px 2px 6px black ;
+    justify-content: center;
+    height: 410px;
+    width: 300px; 
+    border-radius: 5px;  
+}
+.see-button{
+    font-weight: 700;
+    margin-top: 50px;
+    padding: 10px;
+    background-color:white;
+    font-size: 15px;
+    border:none;
+    color: rgb(249, 45, 55);
+}
+.see-button-div{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 120px;
+
+}
+
+.section-three{
+    display: flex;
+    margin-top: 60px;
+}
+.section-three-image{
+    width: 170px;
+    margin-left: 150px;
+}
+.about-section-three{
+    margin-left: 298px;
+    margin-right: 200px;
+    margin-bottom: 130px;
+}
+.section-three-title{
+    font-size: 32px;
+}
+.join-btn{
+    height: 40px;
+    width: 130px;
+    border: none;
+    font-weight: 700;
+    padding: 8px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: white;
+    background-color: rgb(228, 38, 69);
+}
+
+
+
+.influencer-footer{
+    text-align: center;
+    background-color: rgb(128, 24, 225);
+    padding: 60px;
+}
+.influencer-products{
+    font-size: 34px;
+}
+.Copyright{
+    font-size: 15px;
+}
+.fa-instagram, .fa-globe, .fa-twitter, .fa-youtube{
+    margin-right: 15px;
+    border: 2px solid gainsboro;
+    padding: 10px;
+    border-radius: 50%;
+}
